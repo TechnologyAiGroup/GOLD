@@ -9,11 +9,8 @@ This is the implementation for Graph Anomaly-based Logic Locking Deciphering.
 ├── data/                  # Original circuit datasets
 │   ├── TRLL/              # TRLL locked circuit data
 │   ├── TRLL+/             # TRLL+ locked circuit data
-│   ├── TRLL_syn/          # TRLL synthesized circuit data
 │   └── TroMUX/            # TroMUX locked circuit data
 ├── data_part/             # Datasets with standard features only
-├── LLM_synData/           # Data synthesized by large language models
-├── synData/               # Datasets including LLM synthesized data
 ├── main.py                # Main program entry
 ├── BWGNN.py               # Beta Wavelet Graph Neural Network implementation
 ├── bonGNN.py              # Bernstein polynomial GNN implementation
