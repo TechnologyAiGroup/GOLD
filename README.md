@@ -77,5 +77,5 @@ python main.py --dataset amazon --train_ratio 0.4 --hid_dim 64 \
 
 ## Acknowledgement
 
-GOLD utilizes the Beta Wavelet Graph Neural Network (BWGNN) from the following paper: J. Tang, J. Li, Z. Gao, and J. Li, Rethinking graph neural networks for anomaly detection, ICML 2022. We owe many thanks to the authors for making their BWGNN code available.
+The band-pass filter implementation in GOLD utilizes the beta-wavelet codes from the following paper: J. Tang, J. Li, Z. Gao, and J. Li, Rethinking graph neural networks for anomaly detection, ICML 2022. Thanks to the authors for making their code available.
 
